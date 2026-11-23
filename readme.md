@@ -1,5 +1,5 @@
 # Loan Portfolio Risk Analytics
-**Clare Mujuni | Banking Data Analyst Portfolio**
+**Ayebazibwe Clare Mujuni | Banking Data Analyst Portfolio**
 
 ---
 
@@ -31,10 +31,14 @@ Download from Kaggle and place in the project root to reproduce results.*
 
 ## Project Structure
 
-loan-portfolio-risk-analytics/
--- 01_eda_cleaning.ipynb    # Full analysis notebook
---.gitignore
--- README.md
+```
+loan_portifolio_risk_analytics/
+├── 01_eda_cleaning.ipynb            # Full analysis notebook (EDA, SQL segmentation, models)
+├── feature_importance.png           # Random Forest feature importance (application data)
+├── feature_importance_enriched.png  # Feature importance after bureau enrichment
+├── .gitignore
+└── README.md
+```
 
 ---
 
@@ -79,6 +83,8 @@ nearly double the portfolio average. Validates standard credit policy requiring
 enhanced review for applicants with previous overdue payments.
 
 ### 6. Feature Importance (Random Forest)
+
+![Feature importance after bureau enrichment](feature_importance_enriched.png)
 Top predictors of default:
 1. **Age** — younger applicants carry significantly higher risk
 2. **Loan amount** — higher credit exposure increases default probability  
@@ -112,7 +118,7 @@ Top predictors of default:
 
 ## Author
 
-**Clare Mujuni**  
+**Ayebazibwe Clare Mujuni**  
 20 years banking experience across Branch Management, Credit Risk, and Internal Audit  
 (Commercial Microfinance, DFCU Bank, Global Trust Bank)  
 [GitHub](https://github.com/Claraoptions) | mujuniclare@gmail.com
