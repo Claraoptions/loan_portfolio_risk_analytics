@@ -32,7 +32,7 @@ Download from Kaggle and place in the project root to reproduce results.*
 ## Project Structure
 
 ```
-loan_portifolio_risk_analytics/
+loan_portfolio_risk_analytics/
 ├── 01_eda_cleaning.ipynb            # Full analysis notebook (EDA, SQL segmentation, models)
 ├── feature_importance.png           # Random Forest feature importance (application data)
 ├── feature_importance_enriched.png  # Feature importance after bureau enrichment
